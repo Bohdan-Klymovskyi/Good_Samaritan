@@ -1,0 +1,155 @@
+/* Global */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Header */
+
+.dark_theme {
+    text-decoration: underline;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+
+.light_theme {
+    text-decoration: underline;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 94px;
+    /* background: linear-gradient(to right, #0e4d92, #87ceeb); */
+}
+
+.hero__part1 {
+    margin-bottom: 24px;
+}
+
+.hero__button1, .hero__button2 {
+width: 200px;
+height: 48px;
+background: #005BBC;
+border-radius: 20px;
+border: none;
+color: white;
+cursor: pointer;
+}
+
+.hero__title {
+    font-family: 'Comforter Brush', cursive;
+    font-size: 48px;
+}
+
+.body_dark {
+    background: black;
+    color: white;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal__container {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+display: none;
+}
+
+/* About */
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about__part1 {
+    max-width: 400px;
+}
+
+.about__part2 {
+    min-width: 400px;
+    max-width: 400px;
+    box-shadow: 13px 4px 29px 9px rgba(0,0,0,0.35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+padding: 40px;
+}
+
+/* Reports */
+
+.reports {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reports__part1 {
+    max-width: 400px;
+}
+
+.reports__part2 {
+    min-width: 400px;
+    max-width: 400px;
+    box-shadow: 13px 4px 29px 9px rgba(0,0,0,0.35);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+padding: 40px;
+}
+
+.reports__button {
+    width: 200px;
+height: 48px;
+background: #005BBC;
+border-radius: 20px;
+border: none;
+color: white;
+cursor: pointer;
+}
